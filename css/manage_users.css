@@ -1,0 +1,154 @@
+body {
+  font-family: "Prompt", sans-serif;
+  background-color: #fff;
+  margin: 0;
+  padding: 20px 40px;
+  color: #333;
+}
+
+h2, h3 {
+  color: #444;
+  margin-bottom: 16px;
+  font-weight: 600;
+}
+
+.add-user-form {
+  background: rgb(243, 243, 245);
+  padding: 20px ;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+  max-width: 650px;
+}
+
+form input {
+  width: 90%;
+  padding: 10px 12px;
+  margin: 8px ;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+  transition: border-color 0.2s;
+}
+
+form input:focus {
+  outline: none;
+  background-color: #f0f7ff;
+}
+
+form button {
+  margin-top: 12px;
+  padding: 12px 0;
+  width: 100%;
+  border: none;
+  border-radius: 6px;
+  background-color: #4a90e2;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: #357abd;
+}
+
+/* ปุ่มยกเลิก */
+form button[type="button"] {
+  background-color: #e57373;
+  margin-top: 8px;
+}
+
+form button[type="button"]:hover {
+  background-color: #d32f2f;
+}
+
+/* ตารางแสดงข้อมูล */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+thead {
+  background-color: #4a90e2;
+  color: white;
+  font-weight: 600;
+}
+
+th, td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tbody tr:hover {
+  background-color: #f0f7ff;
+}
+
+/* ปุ่มในตาราง */
+.btn-delete{
+  width: 100px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  transition: background-color 0.3s;
+}
+.btn-change{
+  padding: 12px;
+  width: 100px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  transition: background-color 0.3s;
+}
+
+/* ปุ่มลบ */
+.btn-delete {
+  background-color: #e57373;
+  color: white;
+}
+
+.btn-delete:hover {
+  background-color: #d32f2f;
+}
+
+/* ปุ่มแก้ไข */
+button:not(.btn-delete) {
+  background-color: #4caf50;
+  color: white;
+}
+
+button:not(.btn-delete):hover {
+  background-color: #3e8e41;
+}
+
+/* ฟอร์มแก้ไขซ่อนเริ่มต้น */
+#editForm {
+  max-width: 600px;
+}
+
+/* ลิงก์กลับหน้าหลัก */
+p a {
+  display: inline-block;
+  margin-top: 20px;
+  color: #4a90e2;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+/* สำหรับฟอร์มในบรรทัด */
+form.inline {
+  display: inline;
+}

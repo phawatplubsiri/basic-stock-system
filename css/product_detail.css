@@ -1,0 +1,81 @@
+/* product_detail.css */
+
+body {
+  font-family: "Prompt", sans-serif;
+  background-color: #fafafa;
+  margin: 0;
+  padding: 30px 40px;
+  color: #333;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background-color: #fff;
+  max-width: 600px;
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+  padding: 25px 30px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.card img {
+  max-width: 100%;
+  max-height: 300px;
+  border-radius: 10px;
+  object-fit: contain;
+  margin-bottom: 20px;
+  background: #f8f8f8;
+}
+
+.card h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #222;
+}
+
+.card .price {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #3178c6;
+  margin-bottom: 18px;
+}
+
+.card .desc {
+  text-align: left;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 16px;
+  color: #444;
+  white-space: pre-line; /* แสดง \n ตาม nl2br */
+}
+
+.card .category,
+.card div:nth-last-child(2) {
+  font-weight: 600;
+  color: #555;
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+.card p {
+  margin-top: 25px;
+}
+
+.card .button {
+  display: inline-block;
+  background-color: #3178c6;
+  color: white;
+  text-decoration: none;
+  padding: 12px 26px;
+  border-radius: 24px;
+  font-weight: 600;
+  transition: background-color 0.3s;
+}
+
+.card .button:hover {
+  background-color: #255a93;
+}
